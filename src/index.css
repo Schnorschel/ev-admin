@@ -10,3 +10,62 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 1%;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-left: 1%;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1%;
+}
+
+li {
+  list-style-type: none;
+  padding: 0px 5px;
+}
+
+.EVsCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.EvTile {
+  width: 19%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 1%;
+  margin-top: 1%;
+  padding: 5px;
+}
+
+.EvTile :nth-child(4n) {
+  margin-right: 1%;
+}
+
+.EvDetail {
+  margin: 1%;
+}
+
+.evForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1%;
+}
+
+.tdLabel {
+  text-align: right;
+}
